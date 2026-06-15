@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portafolio Multimedia</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#658bc9;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0f172a;
+}
+
+h3{
+    color:#334155;
+}
+
+.download{
+    background:#16a34a;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    display:inline-block;
+}
+
+.download:hover{
+    background:#15803d;
+}
+
+footer{
+    background:#86a7dc;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+.code{
+    background:#eee;
+    padding:10px;
+    border-radius:5px;
+    overflow:auto;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTAFOLIO DE PRODUCCIÓN MULTIMEDIA</h1>
+
+    <h2>ELVIS ALBERTH CANTUTA QUISPE</h2>
+
+    <p>
+        C.I.: 12606223
+    </p>
+
+    <p>
+        Procesamiento Digital de Imágenes y Producción Multimedia
+    </p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Introducción</h2>
+
+        <p>
+            El presente portafolio reúne tres ejercicios desarrollados
+            durante la materia de Producción Multimedia.
+            Los proyectos abarcan procesamiento digital de imágenes,
+            aplicación de filtros espaciales y animación sincronizada
+            con audio dentro del motor Unity.
+            
+        </p>
+        <h3>Captura del Proyecto</h3>
+
+        <img src="imagenes/clasificacion.png"
+            alt="Clasificación de superficies"
+            class="imagen-proyecto">
+    </div>
+
+    <!-- EJERCICIO A -->
+
+    <div class="card">
+
+        <h2>Ejercicio A - Clasificación de Superficies</h2>
+
+        <p>
+            Este proyecto implementa una clasificación de superficies
+            mediante análisis de color y textura.
+        </p>
+
+        <p>
+            El sistema identifica:
+        </p>
+
+        <ul>
+            <li>Agua</li>
+            <li>Vegetación</li>
+            <li>Tierra</li>
+            <li>Asfalto</li>
+            <li>Cemento</li>
+            <li>Sombras</li>
+        </ul>
+
+        <p>
+            Para la clasificación se utilizaron características HSV
+            (Hue, Saturation y Brightness) junto con análisis
+            de textura local.
+        </p>
+
+        <h3>Resultado</h3>
+
+        <p>
+            El algoritmo genera una nueva imagen donde cada superficie
+            es representada mediante un color específico.
+        </p>
+        <h3>Captura del Proyecto</h3>
+
+        <img src="imagenes/ejercicio1.png"
+            alt="Clasificación de superficies"
+            class="imagen-proyecto">
+
+    </div>
+
+    <!-- EJERCICIO B -->
+
+    <div class="card">
+
+        <h2>Ejercicio B - Filtro de Suavizado por Promedio</h2>
+
+        <p>
+            Este ejercicio implementa un filtro espacial de promedio
+            utilizando una ventana de 3x3 píxeles.
+        </p>
+
+        <p>
+            El objetivo principal es reducir el ruido presente
+            en una imagen y generar una apariencia más uniforme.
+        </p>
+
+        <h3>Funcionamiento</h3>
+
+        <ol>
+            <li>Se carga una imagen.</li>
+            <li>Se analiza una vecindad de 3x3.</li>
+            <li>Se calcula el promedio RGB.</li>
+            <li>Se genera una nueva imagen suavizada.</li>
+        </ol>
+
+        <p>
+            Este tipo de filtro es ampliamente utilizado como
+            preprocesamiento en visión artificial.
+        </p>
+        <h3>Captura del Proyecto</h3>
+
+<img src="imagenes/ejercicio2.png"
+     alt="Filtro de Suavizado"
+     class="imagen-proyecto">
+
+    </div>
+
+    <!-- EJERCICIO C -->
+
+    <div class="card">
+
+        <h2>Ejercicio C - Cover de "La Vaca Lola"</h2>
+
+        <p>
+            Este proyecto consistió en realizar una producción multimedia
+            de la canción infantil "La Vaca Lola" utilizando la identidad
+            de un artista reconocido.
+        </p>
+
+        <h3>Proceso Realizado</h3>
+
+        <ol>
+            <li>
+                Se generó el audio principal utilizando la voz
+                del artista Canserbero.
+            </li>
+
+            <li>
+                Se creó una pista musical de acompañamiento
+                para el fondo.
+            </li>
+
+            <li>
+                Se descargó un personaje animado desde Mixamo.
+            </li>
+
+            <li>
+                El personaje fue importado dentro de Unity.
+            </li>
+
+            <li>
+                Se sincronizaron las animaciones con el ritmo
+                de la canción.
+            </li>
+
+            <li>
+                Se añadieron texturas y escenarios.
+            </li>
+
+            <li>
+                Se desarrolló un script para controlar
+                el movimiento de la cámara.
+            </li>
+        </ol>
+
+        <h3>Tecnologías Utilizadas</h3>
+
+        <ul>
+            <li>Unity</li>
+            <li>Mixamo</li>
+            <li>Audio Editing</li>
+            <li>C#</li>
+        </ul>
+        <h3>Captura del Proyecto</h3>
+
+<img src="imagenes/ejercicioVaca.png"
+     alt="Cover La Vaca Lola"
+     class="imagen-proyecto">
+
+    </div>
+
+    <!-- DESCARGAS -->
+
+    <div class="card">
+
+        <h2>Descarga de Proyectos</h2>
+
+        <p>
+            En el siguiente archivo ZIP se encuentran
+            los tres proyectos desarrollados.
+        </p>
+
+        <a href="Proyectos.zip" class="download">
+            Descargar ZIP de los Proyectos
+        </a>
+
+    </div>
+
+    <!-- INSTALACION -->
+
+    <div class="card">
+
+        <h2>Guía de Instalación y Ejecución</h2>
+
+        <h3>Proyecto A y B (Visual Studio)</h3>
+
+        <ol>
+            <li>Instalar Visual Studio 2022.</li>
+            <li>Instalar la carga de trabajo .NET Desktop Development.</li>
+            <li>Abrir la solución (.sln).</li>
+            <li>Compilar el proyecto.</li>
+            <li>Presionar F5 para ejecutar.</li>
+        </ol>
+
+        <h3>Proyecto C (Unity)</h3>
+
+        <ol>
+            <li>Instalar Unity Hub.</li>
+            <li>Instalar la versión de Unity utilizada.</li>
+            <li>Abrir la carpeta del proyecto.</li>
+            <li>Esperar la importación de Assets.</li>
+            <li>Abrir la escena principal.</li>
+            <li>Presionar Play.</li>
+        </ol>
+
+        <h3>Requisitos Mínimos</h3>
+
+        <ul>
+            <li>Windows 10 o superior.</li>
+            <li>8 GB de RAM.</li>
+            <li>Visual Studio 2022.</li>
+            <li>Unity Hub.</li>
+            <li>.NET Framework compatible.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <h3>
+        ELVIS ALBERTH CANTUTA QUISPE
+    </h3>
+
+    <p>
+        Producción Multimedia - Gestión 2025
+    </p>
+
+</footer>
+
+</body>
+</html>
